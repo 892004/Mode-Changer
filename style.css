@@ -1,0 +1,40 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+.images img {
+    height: 50vh;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    filter: brightness(10px);
+
+}
+img:hover{
+    height: 51vh;
+    width: 31%;
+    transition: 0.5s;
+}
+
+#Change-Mode {
+    margin-left: 1250px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
